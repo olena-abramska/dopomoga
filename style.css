@@ -879,6 +879,10 @@ legend {
 #apply {
     padding: 100px 120px 0 120px;
     background: #9FDABC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 95px;
 }
 
 .appliment {
@@ -1012,4 +1016,21 @@ legend {
     line-height: 22px;
     text-align: center;
     color: #FFFFFF;
+}
+
+.order-menager {
+    display: flex;
+    align-items: center;
+    width: 486px;
+    height: 51px;
+}
+
+.order-menager div {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    color: #355D9D;
+    margin-left: 24px;
 }
