@@ -1034,3 +1034,36 @@ legend {
     color: #355D9D;
     margin-left: 24px;
 }
+
+
+/* footer page */
+
+footer {
+    width: 1220px;
+    height: 130px;
+    padding: 0 110px;
+    background: #177345;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer img {
+    width: 126px;
+    height: 130px;
+}
+
+.footer-description,
+.footer-info {
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.footer-description div {
+    margin-left: 12px;
+}
