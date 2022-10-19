@@ -1067,3 +1067,129 @@ footer img {
 .footer-description div {
     margin-left: 12px;
 }
+
+
+/* useful-page */
+
+main {
+    background: #B3E8CD;
+}
+
+.useful-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-headings {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #355D9D;
+    height: 268px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 62px;
+    padding-bottom: 74px;
+    padding-left: 40px;
+}
+
+.title-headings a {
+    text-decoration: none;
+    color: #355D9D;
+}
+
+#depression {
+    padding-top: 87px;
+    margin: 0 120px;
+    color: #355D9D;
+}
+
+#depression p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    padding-bottom: 54px;
+    margin: 0;
+}
+
+#depression span {
+    color: #00B258;
+}
+
+.article-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-decoration-line: underline;
+    color: #355D9D;
+    text-align: center;
+    margin-bottom: 98px;
+}
+
+.depression-article {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.depression-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #00B258;
+    margin-bottom: 20px;
+}
+
+.depression-term {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: #355D9D;
+}
+
+.depression-term span {
+    color: #00B258;
+}
+
+.depression-simptoms {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: #00B258;
+    padding-left: 0;
+}
+
+.depression-description li {
+    margin-left: 20px;
+    color: #355D9D;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.depression-description {
+    width: 657px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.depression-description ul {
+    padding-left: 0;
+}
