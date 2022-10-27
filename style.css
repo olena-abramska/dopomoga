@@ -1103,10 +1103,15 @@ main {
 }
 
 #depression,
-#panic-atack {
+#panic-atack,
+#keep-calm {
     padding-top: 87px;
     margin: 0 120px;
     color: #355D9D;
+}
+
+#keep-calm {
+    padding-bottom: 54px;
 }
 
 #depression p {
@@ -1136,7 +1141,8 @@ main {
 }
 
 .depression-article,
-.panic-atack-article {
+.panic-atack-article,
+.keep-calm-article {
     display: flex;
     justify-content: space-between;
     padding-bottom: 50px;
@@ -1202,7 +1208,8 @@ main {
     padding-bottom: 54px;
 }
 
-#panic-atack span {
+#panic-atack span,
+#keep-calm span {
     color: #00B258;
 }
 
@@ -1212,6 +1219,25 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.keep-calm-description {
+    width: 712px;
+    height: 308px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: #355D9D;
+}
+
+.keep-calm-description p {
+    margin: 0;
+    line-height: 22px;
 }
 
 .panic-reasons-title {
@@ -1224,20 +1250,32 @@ main {
     margin-top: 20px;
 }
 
-.panic-reasons {
+.keep-calm-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #00B258;
+}
+
+.panic-reasons,
+.keep-calm-rules {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
     line-height: 20px;
     color: #355D9D;
+    margin-left: 10px;
 }
 
 .panic-reasons p {
     margin-bottom: 0;
 }
 
-.panic-reasons ul {
+.panic-reasons ul,
+.keep-calm-rules ul {
     padding-left: 20px;
     margin-top: 0;
     margin-bottom: 0;
