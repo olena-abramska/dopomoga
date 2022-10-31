@@ -1317,5 +1317,12 @@ main {
     padding-left: 20px;
     margin-top: 5px;
     margin-bottom: 0;
-    padding-bottom: 94px;
+    padding-bottom: 44px;
+}
+
+.arrow-up {
+    display: flex;
+    justify-content: end;
+    margin-right: 30px;
+    padding-bottom: 20px;
 }
