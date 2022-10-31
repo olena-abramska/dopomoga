@@ -1104,7 +1104,8 @@ main {
 
 #depression,
 #panic-atack,
-#keep-calm {
+#keep-calm,
+#mental-disease {
     padding-top: 87px;
     margin: 0 120px;
     color: #355D9D;
@@ -1142,7 +1143,8 @@ main {
 
 .depression-article,
 .panic-atack-article,
-.keep-calm-article {
+.keep-calm-article,
+.mental-disease-article {
     display: flex;
     justify-content: space-between;
     padding-bottom: 50px;
@@ -1209,7 +1211,8 @@ main {
 }
 
 #panic-atack span,
-#keep-calm span {
+#keep-calm span,
+#mental-disease span {
     color: #00B258;
 }
 
@@ -1235,9 +1238,28 @@ main {
     color: #355D9D;
 }
 
-.keep-calm-description p {
+.keep-calm-description p,
+.mental-disease-description p {
     margin: 0;
     line-height: 22px;
+}
+
+.mental-disease-description {
+    width: 703px;
+    height: 331px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: #355D9D;
+}
+
+.mental-disease-term {
+    margin-top: 15px;
 }
 
 .panic-reasons-title {
@@ -1250,7 +1272,8 @@ main {
     margin-top: 20px;
 }
 
-.keep-calm-title {
+.keep-calm-title,
+.mental-disease-title {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -1259,8 +1282,17 @@ main {
     color: #00B258;
 }
 
-.panic-reasons,
-.keep-calm-rules {
+.panic-reasons {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: #355D9D;
+}
+
+.keep-calm-rules,
+.mental-disease-rules {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -1277,6 +1309,13 @@ main {
 .panic-reasons ul,
 .keep-calm-rules ul {
     padding-left: 20px;
-    margin-top: 0;
+    margin-top: 5px;
     margin-bottom: 0;
+}
+
+.mental-disease-rules ol {
+    padding-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    padding-bottom: 94px;
 }
