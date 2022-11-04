@@ -348,6 +348,10 @@ let feedback = document.querySelector('.order-menager');
 feedback.addEventListener('click', function() {
     alert('Ваш запит прийнятий. Менеджер зателефонує вам в найближчий час');
 });
+let submit_form = document.getElementById('btn');
+submit_form.addEventListener('click', function() {
+    alert('Заявка відправлена. Очікуйте підтвердження на електронну пошту');
+})
 
 
 
