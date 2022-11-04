@@ -1345,12 +1345,12 @@ main {
     font-size: 32px;
     line-height: 44px;
     color: #355D9D;
-    margin-bottom: 106px;
+    margin-bottom: 90px;
 }
 
 #registration-form {
     width: 834px;
-    height: 1100px;
+    height: 1200px;
     background: #9FDABC;
     border: 5px solid #6C86B0;
     border-radius: 10px;
@@ -1363,6 +1363,14 @@ main {
     width: 461px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+#registration-form input {
+    height: 23px;
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid #355D9D;
+    border-radius: 5px
 }
 
 #registration-form legend {
