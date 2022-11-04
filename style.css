@@ -1326,3 +1326,74 @@ main {
     margin-right: 30px;
     padding-bottom: 20px;
 }
+
+
+/*registration page */
+
+.main-form {
+    padding-top: 87px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 130px;
+}
+
+.main-form-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #355D9D;
+    margin-bottom: 106px;
+}
+
+#registration-form {
+    width: 834px;
+    height: 1100px;
+    background: #9FDABC;
+    border: 5px solid #6C86B0;
+    border-radius: 10px;
+    justify-content: flex-start;
+    padding-top: 57px;
+    margin-top: 0;
+}
+
+#registration-form fieldset {
+    width: 461px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#registration-form legend {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #009045;
+    margin-bottom: 50px;
+}
+
+.second-btn {
+    margin-top: 87px;
+}
+
+.second-btn a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 50.67px;
+    background: #6C86B0;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
