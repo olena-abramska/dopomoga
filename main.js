@@ -88,9 +88,14 @@ electroson.addEventListener('click', function() {
     second_string.appendChild(third_paragraph);
     third_paragraph.classList.add('third-paragraph');
     third_paragraph.innerText = "нервової системи; активізується метаболізм; в крові знижується показник «поганого» холестерину; зменшується больовий синдром; нормалізується статева функція; поліпшується згортання крові; знижується тяга до спиртних напоїв; полегшуються симптоми захворювань; поліпшується стан шкіри.";
+    third_span = document.createElement('div');
+    third_paragraph.appendChild(third_span);
+    third_span.innerText = "Матеріали взяті з сайту https://tisa.uz.ua/";
+    third_span.style.color = "#00B258";
     let third_block = document.createElement('div');
     descript.appendChild(third_block);
     third_block.classList.add('third-block');
+
     let alarm = document.createElement('div');
     third_block.appendChild(alarm);
     alarm.classList.add('alarm');
@@ -154,11 +159,11 @@ darsonval.addEventListener('click', function() {
     let second_string = document.createElement('span');
     second_paragraph.appendChild(second_string);
     second_string.classList.add('first-string');
-    second_string.innerText = " жінкам в період вагітності; дітям до 6 років; людям, у";
+    second_string.innerText = " змінити текст";
     let third_paragraph = document.createElement('div');
     second_string.appendChild(third_paragraph);
     third_paragraph.classList.add('third-paragraph');
-    third_paragraph.innerText = "яких виявлені новоутворення доброякісної або злоякісної природи; людям з гіпертонією; всім, хто має порушення згортання крові або тромбофлебіт; людям, що страждають від серцево-судинних захворювань; при наявності кардіостимулятора.";
+    third_paragraph.innerText = "змінити текст";
     let third_block = document.createElement('div');
     descript.appendChild(third_block);
     third_block.classList.add('third-block');
@@ -221,11 +226,11 @@ restbath.addEventListener('click', function() {
     let second_string = document.createElement('span');
     second_paragraph.appendChild(second_string);
     second_string.classList.add('first-string');
-    second_string.innerText = " відрізняється приємним ароматом. Її ефект пов'язаний з ефірними маслами, що виділяються під час процедур з";
+    second_string.innerText = " змінити текст";
     let third_paragraph = document.createElement('div');
     second_string.appendChild(third_paragraph);
     third_paragraph.classList.add('third-paragraph');
-    third_paragraph.innerText = "хвойного субстрату. До того ж, в такій ванні є маса вітамінів, мінеральних солей, мікроелементів, а також дубильних речовин.";
+    third_paragraph.innerText = "змінити текст";
     let second_block_part = document.createElement('div');
     descript.appendChild(second_block_part);
     second_block_part.classList.add('second-block-part');
@@ -236,19 +241,19 @@ restbath.addEventListener('click', function() {
     let fourth_paragraph = document.createElement('div');
     second_block_part.appendChild(fourth_paragraph);
     fourth_paragraph.classList.add('fourth-paragraph');
-    fourth_paragraph.innerText = "Ванна з хвоєю корисна для серцево-судинної і дихальної систем, а також для нервової системи."
+    fourth_paragraph.innerText = "змінити текст"
     let second_word = document.createElement('div');
     fourth_paragraph.appendChild(second_word);
     second_word.classList.add('first-word');
-    second_word.innerText = "Ванни з відваром ромашки";
+    second_word.innerText = "змінити текст";
     let third_string = document.createElement('span');
     second_word.appendChild(third_string);
     third_string.classList.add('first-string');
-    third_string.innerText = " благотворно впливають на стан шкіри, і на";
+    third_string.innerText = " змінити текст";
     let fifth_paragraph = document.createElement('div');
     fourth_paragraph.appendChild(fifth_paragraph);
     fifth_paragraph.classList.add('fifth-paragraph');
-    fifth_paragraph.innerText = "здоров’я в цілому. Після ванни з відваром ромашки спостерігаються такі ефекти, як: позбавлення від пігментних плям;лікування висипань і вугрів; підвищення еластичності шкірного покриву. Біло-жовті квіти відомі своїм заспокійливим дією. Після процедур з застосуванням ромашки підвищується стійкість до стресів.";
+    fifth_paragraph.innerText = ": змінити текст";
     second_block_part.appendChild(fourth_paragraph);
     fourth_paragraph.classList.add('fourth-paragraph');
     let third_word = document.createElement('div');
@@ -258,11 +263,11 @@ restbath.addEventListener('click', function() {
     let fourth_string = document.createElement('span');
     third_word.appendChild(fourth_string);
     fourth_string.classList.add('first-string');
-    fourth_string.innerText = " також вважається дуже корисною. Має заспокійливий і ";
+    fourth_string.innerText = " змінити текст і ";
     let sixth_paragraph = document.createElement('div');
     fourth_paragraph.appendChild(sixth_paragraph);
     sixth_paragraph.classList.add('sixth-paragraph');
-    sixth_paragraph.innerText = "розслаблюючий ефект; лікує шкірні захворювання (екзема, псоріаз); позбавляє від токсинів; зміцнює імунітет; надає профілактичну антиінфекційне дію; пом’якшує натоптиші; відновлює сольовий баланс; знімає біль; нормалізуює тиск і рівень холестерину; допомагає при проблемах з суглобами, опорно-руховою системою і судинами.";
+    sixth_paragraph.innerText = "змінити текст";
     second_block_part.appendChild(fourth_paragraph);
     fourth_paragraph.classList.add('fourth-paragraph');
     let third_block = document.createElement('div');
