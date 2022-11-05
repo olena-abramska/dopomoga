@@ -222,11 +222,11 @@ restbath.addEventListener('click', function() {
     let second_string = document.createElement('span');
     second_paragraph.appendChild(second_string);
     second_string.classList.add('first-string');
-    second_string.innerText = " змінити текст";
+    second_string.innerText = " дуже корисна при лікуванні стресів та проблем нервової системи. Її приємний запах заспокоює, сприятливо";
     let third_paragraph = document.createElement('div');
     second_string.appendChild(third_paragraph);
     third_paragraph.classList.add('third-paragraph');
-    third_paragraph.innerText = "змінити текст";
+    third_paragraph.innerText = "впливає на шкіру та кровообіг. Курс хвойної ванни корисний при лікуванні депресії та безсоння.";
     let second_block_part = document.createElement('div');
     descript.appendChild(second_block_part);
     second_block_part.classList.add('second-block-part');
@@ -237,19 +237,19 @@ restbath.addEventListener('click', function() {
     let fourth_paragraph = document.createElement('div');
     second_block_part.appendChild(fourth_paragraph);
     fourth_paragraph.classList.add('fourth-paragraph');
-    fourth_paragraph.innerText = "змінити текст"
+    fourth_paragraph.innerText = "На додаток до цієї приємної процедури кожен з відвідувачів цього курсу має можливість випити смачний трав’яний чай."
     let second_word = document.createElement('div');
     fourth_paragraph.appendChild(second_word);
     second_word.classList.add('first-word');
-    second_word.innerText = "змінити текст";
+    second_word.innerText = "Ромашкова ванна";
     let third_string = document.createElement('span');
     second_word.appendChild(third_string);
     third_string.classList.add('first-string');
-    third_string.innerText = " змінити текст";
+    third_string.innerText = " є одною з найкращих засобів від напруження та дратівливості. Вона заспокоює, покращує стан шкіри, обмін речовин.";
     let fifth_paragraph = document.createElement('div');
     fourth_paragraph.appendChild(fifth_paragraph);
     fifth_paragraph.classList.add('fifth-paragraph');
-    fifth_paragraph.innerText = ": змінити текст";
+    fifth_paragraph.innerText = "Має антисептичні та протизапальні властивості. Позитивно впливають на жіночу систему та часто використовуються при лікуванні гінекологічних проблем.";
     second_block_part.appendChild(fourth_paragraph);
     fourth_paragraph.classList.add('fourth-paragraph');
     let third_word = document.createElement('div');
@@ -259,11 +259,11 @@ restbath.addEventListener('click', function() {
     let fourth_string = document.createElement('span');
     third_word.appendChild(fourth_string);
     fourth_string.classList.add('first-string');
-    fourth_string.innerText = " змінити текст і ";
+    fourth_string.innerText = " чудово заспокоює та зволожує шкіру. Також добре";
     let sixth_paragraph = document.createElement('div');
     fourth_paragraph.appendChild(sixth_paragraph);
     sixth_paragraph.classList.add('sixth-paragraph');
-    sixth_paragraph.innerText = "змінити текст";
+    sixth_paragraph.innerText = " впливає на нервову систему та широко використовується при лікуванні психічних проблем як додатковий заспокійливий засіб. Сольова ванна стимулює укріплення всього організму. Вважається гарним методом від целюліту.";
     second_block_part.appendChild(fourth_paragraph);
     fourth_paragraph.classList.add('fourth-paragraph');
     let third_block = document.createElement('div');
