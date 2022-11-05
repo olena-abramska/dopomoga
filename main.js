@@ -83,11 +83,11 @@ electroson.addEventListener('click', function() {
     let second_string = document.createElement('span');
     second_paragraph.appendChild(second_string);
     second_string.classList.add('first-string');
-    second_string.innerText = " Після сеансу пацієнт відчуває себе розслаблено, нервова";
+    second_string.innerText = " пацієнт відчуває себе розслаблено, нервова система";
     let third_paragraph = document.createElement('div');
     second_string.appendChild(third_paragraph);
     third_paragraph.classList.add('third-paragraph');
-    third_paragraph.innerText = "система заспокоюється, загальний стан організму покращується. Для покращення стану здоров’я потрібно пройти 10 сеансів.  Перед початком курсу цієї процедури потрібно проконсультуватися з лікарем, який детально огляне вас та вашу медичну картку та зробить висновки - чи можна робити вам цю процедуру, адже завжди є протипоказання.";
+    third_paragraph.innerText = "заспокоюється, загальний стан організму покращується. Для покращення стану здоров’я потрібно пройти 10 сеансів.  Перед початком курсу цієї процедури потрібно проконсультуватися з лікарем, який детально огляне вас та вашу медичну картку та зробить висновки - чи можна робити вам цю процедуру, адже завжди є протипоказання.";
     let third_block = document.createElement('div');
     descript.appendChild(third_block);
     third_block.classList.add('third-block');
