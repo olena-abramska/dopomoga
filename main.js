@@ -143,11 +143,11 @@ darsonval.addEventListener('click', function() {
     let first_string = document.createElement('span');
     first_word.appendChild(first_string);
     first_string.classList.add('first-string');
-    first_string.innerText = " - апарат, який проводить лікувальну дію на організм за";
+    first_string.innerText = " - це спеціальний прилад, який лікує за допомогою впливу";
     let first_paragraph = document.createElement('div');
     first_string.appendChild(first_paragraph);
     first_paragraph.classList.add('first-paragraph');
-    first_paragraph.innerText = "допомогою імпульсних змінних електричних струмів високої частоти і напруги. Дарсонвалізація стимулює обмінні процеси в організмі, усуває спазми судин, покращує кров'яну циркуляцію, посилює кровотоки та лімфоструми, підвищує тонус венозних стінок та шкірних покривів. Пристрій працює від електричної мережі і комплектується різними насадками-електродами для точкового впливу на різні ділянки тіла.";
+    first_paragraph.innerText = "імпульсного змінного струму. Лікувальний курс Дарсонвалю( 10 сеансів) дозволяють покращити стан нервової системи, нормалізувати режим сну, покращити тонус судин, позбутися головних болей. Прилад має декілька насадок. Медичний працівник обирає потрібну насадку та підбирає потужність напруги орієнтуючись на відчуття пацієнта.";
     let second_paragraph = document.createElement('span');
     text_description.appendChild(second_paragraph);
     second_paragraph.classList.add('first-word');
@@ -155,11 +155,7 @@ darsonval.addEventListener('click', function() {
     let second_string = document.createElement('span');
     second_paragraph.appendChild(second_string);
     second_string.classList.add('first-string');
-    second_string.innerText = " змінити текст";
-    let third_paragraph = document.createElement('div');
-    second_string.appendChild(third_paragraph);
-    third_paragraph.classList.add('third-paragraph');
-    third_paragraph.innerText = "змінити текст";
+    second_string.innerText = " людям з хворобами серця, порушеннями згортання крові, вагітним жінкам, особам, які використовують кардіостимулятори. Під час процедури у пацієнта можуть виникнути головні болі. В цьому випадку потрібно перестати використовувати прилад у зоні голови і зосередитися на інших частинах тіла(плечі, спина).";
     let third_block = document.createElement('div');
     descript.appendChild(third_block);
     third_block.classList.add('third-block');
