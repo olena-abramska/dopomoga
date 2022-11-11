@@ -248,6 +248,7 @@ legend {
     width: 222px;
     display: flex;
     justify-content: space-around;
+    cursor: pointer;
 }
 
 
@@ -1023,6 +1024,7 @@ legend {
     align-items: center;
     width: 486px;
     height: 51px;
+    cursor: pointer;
 }
 
 .order-menager div {
