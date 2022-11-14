@@ -369,6 +369,7 @@ legend {
     color: #6C86B0;
     margin-top: 24px;
     text-align: center;
+    cursor: pointer;
 }
 
 .physiotherapies {
@@ -461,6 +462,7 @@ legend {
     height: 51.23px;
     margin-left: 47px;
     margin-top: 58px;
+    cursor: pointer;
 }
 
 .second-block {
