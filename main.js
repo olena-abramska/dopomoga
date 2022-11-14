@@ -8,18 +8,28 @@ mark.addEventListener('click', function() {
 
 let second_star = document.getElementById('mark2');
 second_star.addEventListener('click', function() {
+    mark.src = "image/Star 1-fill.png";
     second_star.src = "image/Star 1-fill.png";
 });
 let third_star = document.getElementById('mark3');
 third_star.addEventListener('click', function() {
+    mark.src = "image/Star 1-fill.png";
+    second_star.src = "image/Star 1-fill.png";
     third_star.src = "image/Star 1-fill.png";
 });
 let fourth_star = document.getElementById('mark4');
 fourth_star.addEventListener('click', function() {
+    mark.src = "image/Star 1-fill.png";
+    second_star.src = "image/Star 1-fill.png";
+    third_star.src = "image/Star 1-fill.png";
     fourth_star.src = "image/Star 1-fill.png";
 });
 let fifth_star = document.getElementById('mark5');
 fifth_star.addEventListener('click', function() {
+    mark.src = "image/Star 1-fill.png";
+    second_star.src = "image/Star 1-fill.png";
+    third_star.src = "image/Star 1-fill.png";
+    fourth_star.src = "image/Star 1-fill.png";
     fifth_star.src = "image/Star 1-fill.png";
 });
 
@@ -156,6 +166,7 @@ darsonval.addEventListener('click', function() {
     second_paragraph.appendChild(second_string);
     second_string.classList.add('first-string');
     second_string.innerText = " людям з хворобами серця, порушеннями згортання крові, вагітним жінкам, особам, які використовують кардіостимулятори. Під час процедури у пацієнта можуть виникнути головні болі. В цьому випадку потрібно перестати використовувати прилад у зоні голови і зосередитися на інших частинах тіла(плечі, спина).";
+    0
     let third_block = document.createElement('div');
     descript.appendChild(third_block);
     third_block.classList.add('third-block');
