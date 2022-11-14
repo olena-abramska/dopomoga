@@ -34,6 +34,33 @@ fifth_star.addEventListener('click', function() {
 });
 
 
+let user = document.querySelector('.user-part');
+let first_link = document.getElementById('introdution');
+let info = document.getElementById('about-us');
+let text = document.querySelector('.introdution');
+first_link.addEventListener('click', function() {
+
+    user.style.display = "none";
+    info.style.display = "flex";
+    info.style.flexDirection = "column";
+    info.style.width = "1440px";
+    info.style.marginBottom = "87px";
+    info.style.alignItems = "center";
+    text.style.width = "890px";
+    text.style.lineHeight = "32px";
+    text.style.fontSize = "19px";
+    let user_part = document.getElementById('user');
+    user_part.style.display = "block";
+    user_part.addEventListener('click', function() {
+        user.style.display = "flex";
+        user.style.width = "587px";
+        text.style.fontSize = "15px";
+        info.style.width = "627px";
+        text.style.width = "627px";
+        text.style.lineHeight = "140%";
+        info.style.marginBottom = "0px";
+    })
+});
 
 
 let inform = document.querySelector('.physiotherapy-title');
