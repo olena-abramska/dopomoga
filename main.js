@@ -34,6 +34,13 @@ fifth_star.addEventListener('click', function() {
 });
 
 
+
+
+
+
+
+
+
 let user = document.querySelector('.user-part');
 let first_link = document.getElementById('introdution');
 let info = document.getElementById('about-us');
