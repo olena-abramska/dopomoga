@@ -59,6 +59,7 @@ first_link.addEventListener('click', function() {
         text.style.width = "627px";
         text.style.lineHeight = "140%";
         info.style.marginBottom = "0px";
+        user_part.style.display = "none";
     })
 });
 
