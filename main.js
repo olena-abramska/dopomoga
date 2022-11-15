@@ -87,7 +87,7 @@ electroson.addEventListener('click', function() {
     descript.appendChild(first_block);
     first_block.classList.add('first_block');
     let back = document.createElement('img');
-    back.src = "image/Назад до послуг.png";
+    back.src = "image/close.png";
     first_block.appendChild(back);
     back.classList.add('back');
     back.addEventListener('click', function() {
@@ -158,7 +158,7 @@ darsonval.addEventListener('click', function() {
     descript.appendChild(first_block);
     first_block.classList.add('first_block');
     let back = document.createElement('img');
-    back.src = "image/Назад до послуг.png";
+    back.src = "image/close.png";
     first_block.appendChild(back);
     back.classList.add('back');
     back.addEventListener('click', function() {
@@ -226,7 +226,7 @@ restbath.addEventListener('click', function() {
     descript.appendChild(first_block);
     first_block.classList.add('first_block');
     let back = document.createElement('img');
-    back.src = "image/Назад до послуг.png";
+    back.src = "image/close.png";
     first_block.appendChild(back);
     back.classList.add('back');
     back.addEventListener('click', function() {
@@ -332,7 +332,7 @@ aromatherapy.addEventListener('click', function() {
     descript.appendChild(first_block);
     first_block.classList.add('first_block');
     let back = document.createElement('img');
-    back.src = "image/Назад до послуг.png";
+    back.src = "image/close.png";
     first_block.appendChild(back);
     back.classList.add('back');
     back.addEventListener('click', function() {
