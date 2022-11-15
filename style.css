@@ -1331,14 +1331,7 @@ main {
     padding-left: 20px;
     margin-top: 5px;
     margin-bottom: 0;
-    padding-bottom: 44px;
-}
-
-.arrow-up {
-    display: flex;
-    justify-content: end;
-    margin-right: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 87px;
 }
 
 
@@ -1418,4 +1411,31 @@ main {
     line-height: 22px;
     text-align: center;
     color: #FFFFFF;
+}
+
+
+/* arrow-up */
+
+#back-to-top {
+    position: fixed;
+    bottom: 50px;
+    right: 270px;
+    cursor: pointer;
+    display: none;
+}
+
+.waves-effect {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    vertical-align: middle;
+    z-index: 1;
+    -webkit-transition: .3s ease-out;
+    transition: .3s ease-out;
 }
