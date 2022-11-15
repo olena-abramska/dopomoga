@@ -938,7 +938,7 @@ legend {
     font-size: 22px;
     line-height: 30px;
     text-align: center;
-    color: #009045;
+    color: #355D9D;
     background: #B3E8CD;
     border: 5px solid #FFFFFF;
     padding: 24px 82px;
@@ -1034,18 +1034,22 @@ legend {
 .order-menager {
     display: flex;
     align-items: center;
-    width: 486px;
     height: 51px;
     cursor: pointer;
+}
+
+.order-menager img {
+    width: 42px;
+    width: 42px;
 }
 
 .order-menager div {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 22px;
     line-height: 34px;
-    color: #355D9D;
+    color: #009045;
     margin-left: 24px;
 }
 
@@ -1424,7 +1428,7 @@ main {
     display: none;
 }
 
-.waves-effect {
+.wave-effect {
     position: relative;
     cursor: pointer;
     display: inline-block;
